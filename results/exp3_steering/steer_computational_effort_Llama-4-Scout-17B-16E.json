@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "dimension": "computational_effort",
+    "model_name": "Llama-4-Scout-17B-16E",
+    "probe_file": "data/probes/probe_computational_effort_Llama-4-Scout-17B-16E.pt",
+    "layer_index": 4,
+    "alphas": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "target_position": "last",
+    "normalize_vector": true,
+    "dataset": "openai/gsm8k",
+    "num_samples": 2
+  },
+  "results": [
+    {
+      "alpha": -1.0,
+      "layer_index": 4,
+      "metrics": {
+        "avg_word_count": 375.5,
+        "median_word_count": 375.5,
+        "refusal_rate": 0.0,
+        "uncertainty_rate": 0.0,
+        "formal_rate": 0.0,
+        "avg_token_count": 1056.5,
+        "accuracy": 0.0,
+        "dim_word_count_mean": 375.5,
+        "dim_word_count_std": 374.5,
+        "dim_line_count_mean": 1.0,
+        "dim_line_count_std": 0.0,
+        "dim_step_marker_count_mean": 0.0,
+        "dim_step_marker_count_std": 0.0,
+        "dim_has_latex_mean": 0.0,
+        "dim_has_latex_std": 0.0,
+        "dim_brevity_mean": 0.49833333333333335,
+        "dim_brevity_std": 0.49833333333333335,
+        "dim_composite_score_mean": 2.4916666666666667,
+        "dim_composite_score_std": 2.4916666666666667,
+        "dim_composite_mean": 2.4916666666666667,
+        "dim_composite_std": 2.4916666666666667
+      },
+      "responses_sample": [
+        {
+          "prompt": "Darrell and Allen's ages are in the ratio of 7:11. If their total age now is 162, calculate Allen's age 10 years from now.",
+          "response": ".",
+          "thinking": ""
+        },
+        {
+          "prompt": "Lorraine and Colleen are trading stickers for buttons. Each large sticker is worth a large button or three small buttons. A small sticker is worth one small button. A large button is worth three small stickers. Lorraine starts with 30 small stickers and 40 large stickers. She trades 90% of her small stickers for large buttons. She trades 50% of her large stickers for large buttons and trades the rest of them for small buttons. How many buttons does she have by the end?",
+          "response": "Lorraine starts with 30 small stickers and 40 large stickers. She trades 90% of her small stickers for large buttons, which is 0.9 * 30 = 27 small stickers. She trades 50% of her large stickers for large buttons, which is 0.5 * 40 = 20 large stickers. She trades the rest of her large stickers for small buttons, which is 40 - 20 = 20 large stickers. She trades 20 large stickers for 20 * 3 = 60 small stickers. She now has 30 - 27 + 60 = 63 small stickers. She also has 20 large buttons. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 20 + 21 = 41 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 41 + 21 = 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large buttons. She also has 0 small stickers. She trades 0 small stickers for 0 / 3 = 0 large buttons. She now has 62 large",
+          "thinking": ""
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "layer_index": 4,
+      "metrics": {
+        "avg_word_count": 440.5,
+        "median_word_count": 440.5,
+        "refusal_rate": 0.0,
+        "uncertainty_rate": 0.0,
+        "formal_rate": 0.0,
+        "avg_token_count": 1056.5,
+        "accuracy": 0.0,
+        "dim_word_count_mean": 440.5,
+        "dim_word_count_std": 342.5,
+        "dim_line_count_mean": 10.5,
+        "dim_line_count_std": 9.5,
+        "dim_step_marker_count_mean": 0.0,
+        "dim_step_marker_count_std": 0.0,
+        "dim_has_latex_mean": 0.0,
+        "dim_has_latex_std": 0.0,
+        "dim_brevity_mean": 0.33666666666666667,
+        "dim_brevity_std": 0.33666666666666667,
+        "dim_composite_score_mean": 1.6833333333333333,
+        "dim_composite_score_std": 1.6833333333333333,
+        "dim_composite_mean": 1.6833333333333333,
+        "dim_composite_std": 1.6833333333333333
+      },
+      "responses_sample": [
+        {
+          "prompt": "Darrell and Allen's ages are in the ratio of 7:11. If their total age now is 162, calculate Allen's age 10 years from now.",
+          "response": "{ \"id\": 162, \"age_ratio\": [7, 11] }\n\n```python\ndef calculate_allen_age():\n    # Define the total age and the age ratio\n    total_age = 162\n    age_ratio = [7, 11]\n\n    # Calculate the sum of the age ratio\n    ratio_sum = sum(age_ratio)\n\n    # Calculate the multiplier for the age ratio\n    multiplier = total_age / ratio_sum\n\n    # Calculate Darrell's and Allen's current ages\n    darrell_age = age_ratio[0] * multiplier\n    allen_age = age_ratio[1] * multiplier\n\n    # Calculate Allen's age 10 years from now\n    allen_age_future = allen_age + 10\n\n    return allen_age_future\n\n# Execute the function\nallen_age_future = calculate_allen_age()\nprint(\"Allen's age 10 years from now is:\", allen_age_future)\n```",
+          "thinking": ""
+        },
+        {
+          "prompt": "Lorraine and Colleen are trading stickers for buttons. Each large sticker is worth a large button or three small buttons. A small sticker is worth one small button. A large button is worth three small stickers. Lorraine starts with 30 small stickers and 40 large stickers. She trades 90% of her small stickers for large buttons. She trades 50% of her large stickers for large buttons and trades the rest of them for small buttons. How many buttons does she have by the end?",
+          "response": "Lorraine starts with 30 small stickers and 40 large stickers. She trades 90% of her small stickers for large buttons, which is 0.9 * 30 = 27 small stickers. She trades 50% of her large stickers for large buttons, which is 0.5 * 40 = 20 large stickers. She trades the rest of her large stickers for small buttons, which is 40 - 20 = 20 large stickers. She trades 20 large stickers for 20 * 3 = 60 small buttons. She now has 30 - 27 + 60 = 63 small buttons. She also has 20 large buttons. A large button is worth three small stickers, so 20 large buttons are worth 20 * 3 = 60 small stickers. She now has 63 + 60 = 123 small stickers. A small sticker is worth one small button, so 123 small stickers are worth 123 small buttons. She also has 20 large buttons. A large button is worth three small stickers, so 20 large buttons are worth 20 * 3 = 60 small stickers. She now has 123 + 60 = 183 small stickers. A small sticker is worth one small button, so 183 small stickers are worth 183 small buttons. She also has 20 large buttons. A large button is worth three small stickers, so 20 large buttons are worth 20 * 3 = 60 small stickers. She now has 183 + 60 = 243 small stickers. A small sticker is worth one small button, so 243 small stickers are worth 243 small buttons. She also has 20 large buttons. A large button is worth three small stickers, so 20 large buttons are worth 20 * 3 = 60 small stickers. She now has 243 + 60 = 303 small stickers. A small sticker is worth one small button, so 303 small stickers are worth 303 small buttons. She also has 20 large buttons. A large button is worth three small stickers, so 20 large buttons are worth 20 * 3 = 60 small stickers. She now has 303 + 60 = 363 small stickers. A small sticker is worth one small button, so 363 small stickers are worth 363 small buttons. She also has 20 large buttons. A large button is worth three small stickers, so 20 large buttons are worth 20 * 3 = 60 small stickers. She now has 363 + 60 = 423 small stickers. A small sticker is worth one small button, so 423 small stickers are worth 423 small buttons. She also has 20 large buttons. A large button is worth three small stickers, so 20 large buttons are worth 20 * 3 = 60 small stickers. She now has 423 + 60 = 483 small stickers. A small sticker is worth one small button, so 483 small stickers are worth 483 small buttons. She also has 20 large buttons. A large button is worth three small stickers, so 20 large buttons are worth 20 * 3 = 60 small stickers. She now has 483 + 60 = 543 small stickers. A small sticker is worth one small button, so 543 small stickers are worth 543 small buttons. She also has 20 large buttons. A large button is worth three small stickers, so 20 large buttons are worth 20 * 3 = 60 small stickers. She now has 543 + 60 = 603 small stickers. A small sticker is worth one small button, so 603 small stickers are worth 603 small buttons. She also has 20 large buttons. A large button is worth three small stickers, so 20 large buttons are worth 20 * 3 = 60 small stickers. She now has 603 + 60 = 663 small stickers. A small sticker is worth one small button, so 663 small stickers are worth 663 small buttons. She also has 20 large buttons. A large button is worth three small stickers, so 20 large buttons are worth 20 * 3 = 60 small stickers. She now has 663 + 60 = 723 small stickers. A small sticker is worth one small button, so 723 small stickers are worth 723 small buttons. She also has 20 large buttons. A large button is worth three small stickers, so 20 large buttons are worth 20 * 3 = 60 small stickers. She now has 723 + 60 = 783 small stickers. A small sticker is worth one small button, so 783 small stickers are worth 783 small buttons. She also has 20 large buttons. A large button is worth three small stickers, so 20 large buttons are worth 20 * 3 = 60 small stickers. She now has 783 + 60 = 843 small stickers. A small sticker is worth",
+          "thinking": ""
+        }
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "layer_index": 4,
+      "metrics": {
+        "avg_word_count": 409.5,
+        "median_word_count": 409.5,
+        "refusal_rate": 0.0,
+        "uncertainty_rate": 0.0,
+        "formal_rate": 0.0,
+        "avg_token_count": 1056.5,
+        "accuracy": 0.5,
+        "dim_word_count_mean": 409.5,
+        "dim_word_count_std": 332.5,
+        "dim_line_count_mean": 3.0,
+        "dim_line_count_std": 2.0,
+        "dim_step_marker_count_mean": 0.0,
+        "dim_step_marker_count_std": 0.0,
+        "dim_has_latex_mean": 0.0,
+        "dim_has_latex_std": 0.0,
+        "dim_brevity_mean": 0.3716666666666667,
+        "dim_brevity_std": 0.3716666666666667,
+        "dim_composite_score_mean": 1.8583333333333334,
+        "dim_composite_score_std": 1.8583333333333334,
+        "dim_composite_mean": 1.8583333333333334,
+        "dim_composite_std": 1.8583333333333334
+      },
+      "responses_sample": [
+        {
+          "prompt": "Darrell and Allen's ages are in the ratio of 7:11. If their total age now is 162, calculate Allen's age 10 years from now.",
+          "response": "9. # 1. Find the total number of parts in the ratio: 7 + 11 = 18 parts\n10. # 2. Calculate the value of one part: 162 / 18 = 9 years\n11. # 3. Determine Allen's current age: 11 parts * 9 years/part = 99 years\n12. # 4. Calculate Allen's age 10 years from now: 99 years + 10 years = 109 years\n13. Allen's age 10 years from now will be 109 years.",
+          "thinking": ""
+        },
+        {
+          "prompt": "Lorraine and Colleen are trading stickers for buttons. Each large sticker is worth a large button or three small buttons. A small sticker is worth one small button. A large button is worth three small stickers. Lorraine starts with 30 small stickers and 40 large stickers. She trades 90% of her small stickers for large buttons. She trades 50% of her large stickers for large buttons and trades the rest of them for small buttons. How many buttons does she have by the end?",
+          "response": "Lorraine starts with 30 small stickers and 40 large stickers. She trades 90% of her small stickers for large buttons, which is 0.9 * 30 = 27 small stickers. She trades 50% of her large stickers for large buttons, which is 0.5 * 40 = 20 large stickers. She trades the rest of her large stickers for small buttons, which is 40 - 20 = 20 large stickers. She trades 20 large stickers for 20 * 3 = 60 small stickers. She now has 30 - 27 + 60 = 63 small stickers. She also has 20 large buttons. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 20 + 21 = 41 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 41 + 21 = 62 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 62 + 21 = 83 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 83 + 21 = 104 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 104 + 21 = 125 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 125 + 21 = 146 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 146 + 21 = 167 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 167 + 21 = 188 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 188 + 21 = 209 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 209 + 21 = 230 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 230 + 21 = 251 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 251 + 21 = 272 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 272 + 21 = 293 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 293 + 21 = 314 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 314 + 21 = 335 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 335 + 21 = 356 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 356 + 21 = 377 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 377 + 21 = 398 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 398 + 21 = 419 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 419 + 21 = 440 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 440 + 21 = 461 large buttons. She also has 63 small stickers. She trades 63 small stickers for 63 / 3 = 21 large buttons. She now has 461 + 21 = 482 large buttons. She also has 63 small stickers. She trades 63 small stickers",
+          "thinking": ""
+        }
+      ]
+    }
+  ]
+}

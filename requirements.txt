@@ -1,0 +1,11 @@
+torch==2.9.0+cu129
+transformers==4.57.1
+accelerate==1.11.0
+vllm==0.11.1rc3.dev12+g243ed7d32.cu129
+scikit-learn
+numpy
+pandas
+tqdm
+datasets
+matplotlib
+seaborn

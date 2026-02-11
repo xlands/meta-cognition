@@ -1,0 +1,19 @@
+{
+  "model_name": "Qwen3-14B",
+  "dimensions": [
+    "self_assessed_capability"
+  ],
+  "test_tasks": [
+    "simpleqa"
+  ],
+  "results": [
+    {
+      "task": "simpleqa",
+      "dimension": "self_assessed_capability",
+      "decoding_accuracy": 0.96875,
+      "num_examples": 32,
+      "probe_layer": 5
+    }
+  ],
+  "joint_steering": []
+}

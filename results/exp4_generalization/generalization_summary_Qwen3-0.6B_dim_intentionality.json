@@ -1,0 +1,19 @@
+{
+  "model_name": "Qwen3-0.6B",
+  "dimensions": [
+    "intentionality"
+  ],
+  "test_tasks": [
+    "simpleqa"
+  ],
+  "results": [
+    {
+      "task": "simpleqa",
+      "dimension": "intentionality",
+      "decoding_accuracy": 0.84375,
+      "num_examples": 32,
+      "probe_layer": 11
+    }
+  ],
+  "joint_steering": []
+}

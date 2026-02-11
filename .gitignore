@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Logs
+log
+*.log
+logs/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+*~
+wandb/
+.env
+
+# Config with secrets (use llm_config.example.yaml as template)
+config/llm_config.yaml

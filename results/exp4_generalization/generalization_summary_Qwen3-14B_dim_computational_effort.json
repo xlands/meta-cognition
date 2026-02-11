@@ -1,0 +1,19 @@
+{
+  "model_name": "Qwen3-14B",
+  "dimensions": [
+    "computational_effort"
+  ],
+  "test_tasks": [
+    "simpleqa"
+  ],
+  "results": [
+    {
+      "task": "simpleqa",
+      "dimension": "computational_effort",
+      "decoding_accuracy": 0.875,
+      "num_examples": 32,
+      "probe_layer": 4
+    }
+  ],
+  "joint_steering": []
+}

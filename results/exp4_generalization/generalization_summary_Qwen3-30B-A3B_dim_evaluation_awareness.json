@@ -1,0 +1,19 @@
+{
+  "model_name": "Qwen3-30B-A3B",
+  "dimensions": [
+    "evaluation_awareness"
+  ],
+  "test_tasks": [
+    "simpleqa"
+  ],
+  "results": [
+    {
+      "task": "simpleqa",
+      "dimension": "evaluation_awareness",
+      "decoding_accuracy": 0.78125,
+      "num_examples": 32,
+      "probe_layer": 43
+    }
+  ],
+  "joint_steering": []
+}

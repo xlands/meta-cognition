@@ -1,0 +1,19 @@
+{
+  "model_name": "Qwen3-0.6B",
+  "dimensions": [
+    "perceived_risk"
+  ],
+  "test_tasks": [
+    "simpleqa"
+  ],
+  "results": [
+    {
+      "task": "simpleqa",
+      "dimension": "perceived_risk",
+      "decoding_accuracy": 0.75,
+      "num_examples": 32,
+      "probe_layer": 3
+    }
+  ],
+  "joint_steering": []
+}

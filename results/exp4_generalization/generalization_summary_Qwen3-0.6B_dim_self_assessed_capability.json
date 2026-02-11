@@ -1,0 +1,19 @@
+{
+  "model_name": "Qwen3-0.6B",
+  "dimensions": [
+    "self_assessed_capability"
+  ],
+  "test_tasks": [
+    "simpleqa"
+  ],
+  "results": [
+    {
+      "task": "simpleqa",
+      "dimension": "self_assessed_capability",
+      "decoding_accuracy": 0.53125,
+      "num_examples": 32,
+      "probe_layer": 9
+    }
+  ],
+  "joint_steering": []
+}
