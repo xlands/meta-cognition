@@ -1,4 +1,4 @@
-rm# Decomposing and Steering Implicit Metacognitive States in Large Language Models
+# Decomposing and Steering Implicit Metacognitive States in Large Language Models
 
 This repository contains the code and data for reproducing the experiments in our paper. We study how large language models encode **implicit metacognitive states**---internal variables such as evaluation awareness, self-assessed capability, and perceived risk---that causally influence reasoning behavior.
 
@@ -58,10 +58,6 @@ Experiments were conducted on five models across two architectures:
 ## Setup
 
 ```bash
-# Clone the repository
-git clone https://github.com/xlands/meta-cognition.git
-cd meta-cognition
-
 # Install dependencies
 pip install -r requirements.txt
 
@@ -157,17 +153,3 @@ Tests whether probes transfer to SimpleQA (unseen domain). Optionally runs joint
 ## Pre-trained Probes
 
 We provide pre-trained probe weights for all five models in `data/probes/`. These can be used directly for steering experiments (Experiments 3 and 4) without re-running Experiment 2.
-
-## Citation
-
-```bibtex
-@article{metacognitive2025,
-  title={Decomposing and Steering Implicit Metacognitive States in Large Language Models},
-  author={...},
-  year={2025}
-}
-```
-
-## License
-
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
